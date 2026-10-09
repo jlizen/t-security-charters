@@ -16,7 +16,7 @@ Rust's value depends heavily on a trustworthy crate ecosystem, but, at the time 
 
 ## Responsibilities & Commitments
 
-### [Decision Maker](../../common/darci.md#decision-maker)
+### Decision Maker
 
 The team is the decision maker on:
 
