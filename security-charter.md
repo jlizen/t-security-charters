@@ -1,3 +1,5 @@
+# Security Team Charter
+
 > Draft for Council review, accompanying the [t-security proposal](https://rust-lang.zulipchat.com/#narrow/channel/613087-security-chat/topic/Should.20we.20make.20t-security.3F). This charters the top-level `security` group; its subgroups (`security-response`, `project-security`, `ecosystem-security`) each have their own charter.
 >
 > `security` is proposed to live under `launching-pad` initially, revisiting top-level status after ~6 months.
