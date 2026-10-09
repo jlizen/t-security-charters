@@ -69,7 +69,7 @@ The team should be informed of:
 
 ## How does this group make decisions?
 
-By team consensus; where a public Project decision or a broadly-scoped recommendation is involved, via the standard [RFC/FCP process](../../common/rfc_fcp.md). `[TODO: confirm with initial members.]`
+By team consensus; where a public Project decision or a broadly-scoped recommendation is involved, via the standard RFC/FCP process. `[TODO: confirm with initial members.]`
 
 ## What work is not specifically part of this group's remit?
 
@@ -94,7 +94,6 @@ Members are expected to:
 
 - Contribute to guidance, tooling, training, or threat-model work on a recurring basis.
 - Engage with owning teams (especially t-infra) collaboratively, respecting their authority.
-- Follow the [common member requirements](../../common/member_requirements.md).
 
 ## How is team membership managed?
 

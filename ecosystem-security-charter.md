@@ -65,7 +65,7 @@ The team should be informed of:
 
 ## How does this group make decisions?
 
-By team consensus, with a clear internal understanding of who leads response vs. proactive work. Advisory publication follows RustSec/advisory-db's existing process; broader Project decisions use the standard [RFC/FCP process](../../common/rfc_fcp.md). `[TODO: confirm with initial members and with RustSec maintainers.]`
+By team consensus, with a clear internal understanding of who leads response vs. proactive work. Advisory publication follows RustSec/advisory-db's existing process; broader Project decisions use the standard RFC/FCP process. `[TODO: confirm with initial members and with RustSec maintainers.]`
 
 ## What work is not specifically part of this group's remit?
 
@@ -91,7 +91,6 @@ Members are expected to:
 
 - Contribute recurring work to advisory operations, tooling/detection, or ecosystem response.
 - When acting on crates.io, operate strictly within crates.io-delegated authority and access.
-- Follow the [common member requirements](../../common/member_requirements.md).
 
 ## How is team membership managed?
 
