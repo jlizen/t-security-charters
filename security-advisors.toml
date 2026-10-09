@@ -45,4 +45,5 @@ extra-teams = [
     "crates-io-admins",
     "crates-io-on-call",
     "leadership-council",
+    "infra-admins",
 ]
