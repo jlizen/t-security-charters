@@ -26,7 +26,7 @@ The team is the decision maker on:
 
 The team is **not** the decision maker on crates.io or cargo behavior. Actions taken on crates.io (e.g. removing a malicious crate, acting on ownership) are done only under explicit delegation from the crates.io team, with access granted and revocable by them.
 
-### [Accountable for results](../../common/darci.md#accountable-for-results)
+### Accountable for results
 
 The team is accountable for:
 
@@ -35,7 +35,7 @@ The team is accountable for:
     - The group will set standards for which cases the group will take action on. The group does not assume responsibility for resolving all cases.
 - Ecosystem vulnerability reports and advisories being triaged and published in a timely way (RustSec operations). `[Once RustSec is placed here via separate proposal.]`
 
-### [Responsible for work](../../common/darci.md#responsible-for-work)
+### Responsible for work
 
 The team members do the work of:
 
@@ -49,14 +49,14 @@ The team members do the work of:
 - (If the team chooses to establish it) staffing an opt-in, trained ecosystem-security oncall operating under crates.io-delegated access. This needs more design and is explicitly *not* part of the initial chartering request.
 - RustSec / advisory-db maintenance and advisory authoring. `[Once RustSec is placed here via separate proposal.]`
 
-### [Consulted for input](../../common/darci.md#consulted-for-input)
+### Consulted for input
 
 The team should be consulted on:
 
 - crates.io / cargo designs with ecosystem-security implications (e.g. trusted publishing, yanking/quarantine semantics, publish-time policy).
 - Project decisions about adopting or first-partying ecosystem security tooling.
 
-### [Informed for awareness](../../common/darci.md#informed-for-awareness)
+### Informed for awareness
 
 The team should be informed of:
 
@@ -85,7 +85,7 @@ By team consensus, with a clear internal understanding of who leads response vs.
 
 ## Team Membership
 
-Proposed initial members (all pending confirmation): @jlizen, @djc, @LawnGnome, @walterhpearce, @amousset, @alex, @tarcieri**, @teor2345**, @Eh2406
+Proposed initial members (all pending confirmation): @jlizen, @djc, @LawnGnome, @walterhpearce, @amousset, @alex, @tarcieri, @teor2345, @Eh2406
 
 Members are expected to:
 
@@ -104,6 +104,8 @@ Members are expected to:
 - wg-secure-code: almost certainly belongs here, but we want to have further discussions before moving forward.
 
 ## Where does this group work?
+
+`[TODO: decide on a repository/tracker.]` 
 
 Primarily async, on Zulip. We can use the `#security-chat` Zulip channel until the throughput of the channel becomes overwhelming, at which point we can split.
 
