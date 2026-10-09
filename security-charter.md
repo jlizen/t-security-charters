@@ -103,7 +103,7 @@ New members of `security-advisors` are nominated by members of this group or its
 
 Members: the lead(s) once determined, at least one delegate from each subgroup (so that each subgroup stays looped in), and anyone else who wants to help coordinate. Membership is intended to stay small.
 
-Proposed initial members, along with subteam nominees: @jlizen, @Manishearth, @djc, @LawnGnome, @m-ou-se, @Eh2406
+Proposed initial members, along with subteam nominees: @jlizen, @Manishearth, @LawnGnome, @m-ou-se, @Eh2406
 
 Members are expected to:
 
