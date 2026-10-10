@@ -85,7 +85,7 @@ By team consensus, with a clear internal understanding of who leads response vs.
 
 ## Team Membership
 
-Proposed initial members (all pending confirmation): @jlizen, @djc, @LawnGnome, @walterhpearce, @amousset, @alex, @tarcieri, @Eh2406, @mendymm
+Proposed initial members (all pending confirmation): @jlizen, @djc, @LawnGnome, @walterhpearce, @amousset, @alex, @tarcieri, @Eh2406, @mendymm, @teor2345
 
 Members are expected to:
 
