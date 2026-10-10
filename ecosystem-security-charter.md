@@ -23,6 +23,7 @@ The team is the decision maker on:
 - The design and roadmap of ecosystem-security tooling and information feeds it owns or maintains (e.g. scanning pipelines, detection heuristics, CI tooling).
 - Its own internal division of labor between "response" (advisories, takedown coordination, author outreach) and "proactive" (scanning, tooling, feeds).
 - The content and publication of security advisories for ecosystem crates (RustSec / advisory-db), once RustSec lives here (contingent on a separate proposal)
+- The operations, particularly the operational security practices, of its response subgroup.
 
 The team is **not** the decision maker on crates.io or cargo behavior. Actions taken on crates.io (e.g. removing a malicious crate, acting on ownership) are done only under explicit delegation from the crates.io team, with access granted and revocable by them.
 
@@ -41,9 +42,11 @@ The team members do the work of:
 
 - Authoring and maintaining the ecosystem component of the Project threat model (crates ecosystem / supply-chain threats), contributed to the parent `security` group to include in the broader Project threat model.
 - Building and running detection/scanning (e.g. typosquatting checks, dependency-graph analysis, publish-time checks that route suspicious uploads to a manual review queue, continuous scanning of published crates to enrich feeds).
-- Author outreach for vulnerable crates. **Coordinating** with the crates.io team on clearly-malicious crates, providing evidence and recommendations. 
-    - The group starts with no delegated authority on crates.io. Down the road, the crates.io team may choose to delegate some operational authority to this group. If they do, it happens only under an explicit, revocable program that spells out audit logging, review for destructive actions (deletion), and who is accountable.
-    - Setting that up is crates.io's call and is out of scope for the initial chartering request.
+- Creating a response/triage sub-group, rotation, or similar
+  - Working out their own delegations for this group, that are compatible with the threat model
+  - Setting a limit on the size of the *actively involved* people *for each delegation*
+  - Author outreach for vulnerable crates. **Coordinating** with the crates.io team on clearly-malicious crates, providing evidence and recommendations. 
+  - The group starts with no delegated authority on crates.io. Down the road, the crates.io team may choose to delegate some operational authority to this group. If they do, it happens only under an explicit, revocable program that spells out audit logging, review for destructive actions (deletion), and who is accountable.
 - Producing consumer-facing security tooling/guidance (e.g. nicer GitHub Actions around cargo audit/deny/vet-style checks)
     - Note that formal Project adoption of external tools is a separate proposal.
 - (If the team chooses to establish it) staffing an opt-in, trained ecosystem-security oncall operating under crates.io-delegated access. This needs more design and is explicitly *not* part of the initial chartering request.
