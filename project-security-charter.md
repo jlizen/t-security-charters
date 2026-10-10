@@ -40,7 +40,7 @@ The team is accountable for:
 - The existence and upkeep of a set of proactive-security recommendations for Project properties.
 - Proposing concrete mitigations to reduce the blast radius of likely failure modes (e.g. credential compromise of an individual Project member) and sharing them with owning teams (primarily t-infra).
 - Delivering a security-awareness training program
-- Growing a cross-team network of security-oriented Rust Project who can guide their peers.
+- Growing a cross-team network of security-oriented Rust Project members, who can guide their peers.
 
 ### Responsible for work
 
