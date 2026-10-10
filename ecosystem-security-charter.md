@@ -31,7 +31,7 @@ The team is **not** the decision maker on crates.io or cargo behavior. Actions t
 The team is accountable for:
 
 - Ecosystem-security tooling and feeds it commits to remaining maintained and useful to consumers.
-- Malicious/vulnerable-crate situations having an owner for the parts within this group's remit: reaching out to affected/unreachable authors and publishing advisories. Actioning crates on crates.io (yank/quarantine/delete) stays with crates.io (see "Responsible for work" for more on delegation).
+- Malicious/vulnerable-crate situations having an owner for the parts within this group's remit: reaching out to affected/at-risk authors and publishing advisories. Actioning crates on crates.io (yank/quarantine/delete) stays with crates.io (see "Responsible for work" for more on delegation).
     - The group will set standards for which cases the group will take action on. The group does not assume responsibility for resolving all cases.
 - Ecosystem vulnerability reports and advisories being triaged and published in a timely way (RustSec operations). `[Once RustSec is placed here via separate proposal.]`
 
