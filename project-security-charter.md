@@ -6,7 +6,7 @@
 
 ## Mission
 
-Proactively protect Project-owned repositories and infrastructure and improve the forward security posture of Rust Project contributors. Success for this group means that fewer incidents ever reach securityresponse.
+Proactively protect Project-owned repositories and infrastructure and improve the forward security posture of Rust Project contributors. Success for this group means that fewer incidents ever reach `security-response`.
 
 The team produces guidance, tooling, training, and threat-model input that Project teams and contributors are encouraged to adopt, and works alongside t-infra to harden the Project's own resources.
 
