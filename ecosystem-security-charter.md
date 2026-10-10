@@ -71,7 +71,7 @@ By team consensus, with a clear internal understanding of who leads response vs.
 
 - Project-internal hardening (Project repos/CI/publishing): belongs to project-security.
 - Reactive response to vulnerabilities in Project-owned code: belongs to security-response.
-- Deciding crates.io / cargo policy or operating their systems outside delegated actions: — stays with those teams.
+- Deciding crates.io / cargo policy or operating their systems outside delegated actions: stays with those teams.
 - Formal Project adoption of external tooling (cargo audit/vet/deny, etc.) as governed by Rustlang
     - Individual contribution is fine.
     - This group may raise proposals for adoption of tools to the broader Project.
