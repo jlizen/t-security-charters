@@ -88,7 +88,7 @@ By team consensus; where a public Project decision or a broadly-scoped recommend
 
 ## Team Membership
 
-Proposed initial members (all pending confirmation): @Mark-Simulacrum, @LawnGnome, @m-ou-se, and @teor2345
+Proposed initial members (all pending confirmation): @Mark-Simulacrum, @LawnGnome, @m-ou-se, @teor2345, @walterhpearce
 
 Members are expected to:
 
