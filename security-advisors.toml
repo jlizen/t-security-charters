@@ -33,7 +33,7 @@ alumni = []
 
 [website]
 name = "Security advisors"
-description = "Trusted cross-team advisors that may be optionally consulted during security responses"
+description = "A small group of members cutting across Project teams that are available for private consultation for security concerns."
 
 [[zulip-groups]]
 name = "T-security-advisors"
