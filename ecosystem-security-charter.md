@@ -8,11 +8,19 @@
 
 Improve the security posture of the wider Rust ecosystem, including crates published on crates.io, and other non-Rust Project software.
 
-This spans proactive work (tooling, detection, information feeds, community guidance) and response work (advisories, author outreach, coordinating action on malicious or vulnerable crates).
+This spans proactive work (tooling, detection, information feeds, community guidance) and response work (coordinating action on malicious or vulnerable crates).
+
+To accomplish these goals, the group will consider the health of ecosystem maintainers and burn-out avoidance both of team members and
+ecosystem maintainers as a key strategic consideration in all approaches.
 
 ## How does this further the Rust Project goals?
 
 Rust's value depends heavily on a trustworthy crate ecosystem, but, at the time of writing, ecosystem security is fragmented: RustSec/advisory-db lives under wg-secure-code, malicious-crate response falls implicitly on the crates.io oncall and Foundation security engineers, and proactive tooling is scattered. Consolidating this into one group gives the ecosystem a coherent home, a sustainable path for response, and an accessible entry point for the growing set of contributors interested in this space.
+
+In the process, this gives us an opportunity to re-examine ecosystem practices around security handling that may or may not be working:
+- What kinds of author outreach, if any, make sense as a standard approach? Is it effective in improving remediation? Does it contribute to team member or ecosystem maintainer burnout? Should this team handle initial reachout, or the reporters?
+- Is a mixed stream of vulnerabilities and advisories appropriate for downstream consumers?
+- How can we scale out our efforts to handle the growing count of potentially significant vulnerabilities which are discovered by LLMs? This includes not only triage but also driving remediation efforts in a way that is consistent with the project's values and doesn't contribute to burnout.
 
 ## Responsibilities & Commitments
 
@@ -21,7 +29,8 @@ Rust's value depends heavily on a trustworthy crate ecosystem, but, at the time 
 The team is the decision maker on:
 
 - The design and roadmap of ecosystem-security tooling and information feeds it owns or maintains (e.g. scanning pipelines, detection heuristics, CI tooling).
-- Its own internal division of labor between "response" (advisories, takedown coordination, author outreach) and "proactive" (scanning, tooling, feeds).
+- Its own internal division of labor between "response" (handling of malicious or vulnerable crates) and "proactive" (scanning, tooling, feeds).
+- The approaches taken for handling of malicious crates, which may include author outreach or publishing advisors.
 - The content and publication of security advisories for ecosystem crates (RustSec / advisory-db), once RustSec lives here (contingent on a separate proposal)
 - The operations, particularly the operational security practices, of its response subgroup.
 
@@ -32,9 +41,10 @@ The team is **not** the decision maker on crates.io or cargo behavior. Actions t
 The team is accountable for:
 
 - Ecosystem-security tooling and feeds it commits to remaining maintained and useful to consumers.
-- Malicious/vulnerable-crate situations having an owner for the parts within this group's remit: reaching out to affected/at-risk authors and publishing advisories. Actioning crates on crates.io (yank/quarantine/delete) stays with crates.io (see "Responsible for work" for more on delegation).
+- Malicious/vulnerable-crate situations having an owner for the parts within this group's remit: coordinating responses to malicious or vulnerable crates, which may include reaching out to affected/at-risk authors and publishing advisories. Actioning crates on crates.io (yank/quarantine/delete) stays with crates.io (see "Responsible for work" for more on delegation).
     - The group will set standards for which cases the group will take action on. The group does not assume responsibility for resolving all cases.
 - Ecosystem vulnerability reports and advisories being triaged and published in a timely way (RustSec operations). `[Once RustSec is placed here via separate proposal.]`
+- Improving the overall sustainability of the ecosystem's security handling processes, including preventing maintainer burnout
 
 ### Responsible for work
 
@@ -45,7 +55,8 @@ The team members do the work of:
 - Creating a response/triage sub-group, rotation, or similar
   - Working out their own delegations for this group, that are compatible with the threat model
   - Setting a limit on the size of the *actively involved* people *for each delegation*
-  - Author outreach for vulnerable crates. **Coordinating** with the crates.io team on clearly-malicious crates, providing evidence and recommendations. 
+  - **Coordinating** with the crates.io team on clearly-malicious crates, providing evidence and recommendations. 
+  - Where relevant, author outreach for vulnerable crates.
   - The group starts with no delegated authority on crates.io. Down the road, the crates.io team may choose to delegate some operational authority to this group. If they do, it happens only under an explicit, revocable program that spells out audit logging, review for destructive actions (deletion), and who is accountable.
 - Producing consumer-facing security tooling/guidance (e.g. nicer GitHub Actions around cargo audit/deny/vet-style checks)
     - Note that formal Project adoption of external tools is a separate proposal.
