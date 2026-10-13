@@ -58,9 +58,10 @@ The team members do the hands-on work of:
 
 The team should be consulted on:
 
-- Changes to Project infrastructure, release processes, or repository policies that would materially affect the Project's ability to respond to or contain a security incident.
+- Changes to Project infrastructure, release processes, repository policies, or security scope that would materially affect the Project's ability to respond to or contain a security incident
 - Sibling `security` subgroups' proactive work where it intersects with incident handling (e.g. `project-security` guidance on repo hardening, `ecosystem-security` handling of malicious/vulnerable crates that may generate reports into this team's inbox).
 - Designs of security-relevant features by owning teams (e.g. crates.io trusted publishing, cargo build-script sandboxing) where the response team's incident experience is relevant.
+- 
 
 ### Informed for awareness
 
