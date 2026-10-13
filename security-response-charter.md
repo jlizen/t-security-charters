@@ -49,6 +49,7 @@ The team is accountable for:
 The team members do the hands-on work of:
 
 - Monitoring and triaging the `security@rust-lang.org` inbox (including decrypting GPG-encrypted reports).
+- Passing `security@rust-lang.org` reports related to ecosystem incidents to `ecosystem-security` processes.
 - Setting up per-incident private Zulip streams and running the investigation and response with the reporter.
 - Coordinating the fix, arranging point releases/patches, and distributing patch files (signed with the security key).
 - Writing and publishing advisories and announcements across the required channels, and sending the pre-disclosure notifications to `distros@lists.openwall.com` / `oss-security@lists.openwall.com`.
@@ -61,7 +62,7 @@ The team should be consulted on:
 - Changes to Project infrastructure, release processes, repository policies, or security scope that would materially affect the Project's ability to respond to or contain a security incident
 - Sibling `security` subgroups' proactive work where it intersects with incident handling (e.g. `project-security` guidance on repo hardening, `ecosystem-security` handling of malicious/vulnerable crates that may generate reports into this team's inbox).
 - Designs of security-relevant features by owning teams (e.g. crates.io trusted publishing, cargo build-script sandboxing) where the response team's incident experience is relevant.
-- 
+- `ecosystem-security` handling of security incidents, particular 
 
 ### Informed for awareness
 
@@ -79,7 +80,7 @@ Response decisions are made by team consensus, typically in the private per-inci
 - Proactive security of Project properties (GitHub Actions usage policy, CI hardening recommendations, publishing hygiene, spearphishing training): this belongs to `project-security`.
 - Wider ecosystem security (RustSec/advisory-db operations, scanning and outreach for crates the Project does not itself depend on, malicious-crate response on crates.io):  this belongs to `ecosystem-security`
     - The exception to this is if a report in ecosystem-security scope happens to arrive through the security-response inbox, in which case security-response is responsible for handing the incident off to ecosystem-security but not following it to completion.
-- Building security tooling or detection systems** — response consumes such tooling but does not own its development.
+- Building security tooling or detection systems: response consumes such tooling but does not own its development.
 
 # Team Processes
 
