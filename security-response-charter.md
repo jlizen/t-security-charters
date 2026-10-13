@@ -50,7 +50,7 @@ The team members do the hands-on work of:
 
 - Monitoring and triaging the `security@rust-lang.org` inbox (including decrypting GPG-encrypted reports).
 - Setting up per-incident private Zulip streams and running the investigation and response with the reporter.
-- Developing or coordinating the fix, arranging point releases/patches, and preparing patch files (signed with the security key).
+- Coordinating the fix, arranging point releases/patches, and distributing patch files (signed with the security key).
 - Writing and publishing advisories and announcements across the required channels, and sending the pre-disclosure notifications to `distros@lists.openwall.com` / `oss-security@lists.openwall.com`.
 - Authoring and maintaining the incident-response component of the Project threat model, and feeding it to the parent group.
 
