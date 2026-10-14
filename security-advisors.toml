@@ -1,0 +1,51 @@
+name = "security-advisors"
+subteam-of = "security"
+
+[people]
+leads = []
+members = [
+    "Manishearth",
+    "emilyalbini",
+    "cuviper",
+    "Mark-Simulacrum",
+    "jlizen",
+    "LawnGnome",
+    "m-ou-se",
+    "teor2345",
+    "djc",
+    "walterhpearce",
+    "amousset",
+    "alex",
+    "tarcieri",
+    "Eh2406",
+    "nia-e",
+    "obi1kenobi",
+    "joshlf",
+    "jdno",
+    "marcoieni",
+    "ubiratansoares",
+    "davidtwco",
+    "saethlin",
+    "Turbo87",
+    "clarfonthey",
+    "joshtriplett"
+]
+alumni = []
+
+[website]
+name = "Security advisors"
+description = "A small group of members cutting across Project teams that are available for private consultation for security concerns."
+
+[[zulip-groups]]
+name = "T-security-advisors"
+
+[[zulip-streams]]
+name = "security/with-advisors"
+extra-teams = [
+    "security-response",
+    "foundation-board-project-directors",
+    "crates-io-admins",
+    "crates-io-on-call",
+    "leadership-council",
+    "infra-admins",
+]
